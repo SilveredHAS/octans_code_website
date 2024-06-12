@@ -5,25 +5,33 @@ import { PRIMARY_BLACK } from "@/constants";
 
 const HeroSection = () => {
   return (
-    <div
+    <Box
+      component={"div"}
       id="hero-section"
-      style={{ height: "91vh", backgroundColor: PRIMARY_BLACK }}
+      sx={{ height: { xs: "50vh", sm: "40vh", lg: "91vh" } }}
     >
       <Box
         sx={{
           display: "flex",
           width: "100%",
           height: "100%",
+          backgroundColor: PRIMARY_BLACK,
+          backgroundImage: { xs: `url(${HeroImage.src})`, lg: "none" },
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
         }}
       >
         <Box
           sx={{
             height: "100%",
-            width: "50%",
+            width: { xs: "100%", lg: "50%" },
             display: "flex",
             alignItems: "center",
-            pl: 10,
-            pb: 10,
+            justifyContent: "center",
+            flexDirection: { xs: "column", lg: "row" },
+            pl: { xs: 2, lg: 10 },
+            pb: { xs: 2, lg: 10 },
+            backgroundColor: { xs: "rgba(0,0,0,0.5)", lg: PRIMARY_BLACK },
           }}
         >
           <Box>
@@ -41,7 +49,13 @@ const HeroSection = () => {
             </Typography>
           </Box>
         </Box>
-        <Box sx={{ height: "100%", width: "50%" }}>
+        <Box
+          sx={{
+            height: "100%",
+            width: "50%",
+            display: { xs: "none", lg: "flex" },
+          }}
+        >
           <img
             src={HeroImage.src}
             alt="HeroImage"
@@ -53,7 +67,7 @@ const HeroSection = () => {
           />
         </Box>
       </Box>
-    </div>
+    </Box>
   );
 };
 

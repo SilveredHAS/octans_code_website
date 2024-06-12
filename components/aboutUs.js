@@ -25,7 +25,7 @@ const AboutUs = () => {
         backgroundColor: PRIMARY_BLACK,
       }}
     >
-      <Box sx={{ width: "95%" }}>
+      <Box sx={{ width: { xs: "85%", lg: "95%" } }}>
         <Grid container spacing={4} alignItems={"center"}>
           <Grid item xs={12} lg={6}>
             <Box

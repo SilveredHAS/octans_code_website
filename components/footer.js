@@ -39,7 +39,11 @@ const Footer = () => {
       }}
     >
       <Box
-        sx={{ width: "60%", display: "flex", justifyContent: "space-between" }}
+        sx={{
+          width: { xs: "90%", lg: "60%" },
+          display: "flex",
+          justifyContent: "space-between",
+        }}
       >
         {navList.map((item, index) => (
           <Button
@@ -55,7 +59,7 @@ const Footer = () => {
               },
             }}
           >
-            <Typography variant="body1">{item}</Typography>
+            <Typography variant="body2">{item}</Typography>
           </Button>
         ))}
       </Box>

@@ -3,9 +3,11 @@ import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import AppLogo from "../public/asset/image/AppLogo.png";
+import AppLogo from "../public/asset/image/AppLogo1.png";
 import { Button, Typography } from "@mui/material";
 import { PRIMARY_BLACK } from "@/constants";
+import MenuIcon from "@mui/icons-material/Menu";
+import Sidebar from "./sidebar";
 
 export default function CustomAppBar() {
   const navList = ["Home", "About Us", "Services", "Projects", "Contact Us"];
@@ -46,6 +48,7 @@ export default function CustomAppBar() {
               display: { xs: "none", lg: "flex" },
               justifyContent: "space-between",
               alignItems: "center",
+              p: { xs: 0, xxl: 1, xxxl: 2, xxxxxl: 3 },
             }}
           >
             <a href="/">
@@ -73,7 +76,14 @@ export default function CustomAppBar() {
             <Box
               sx={{
                 display: "flex",
-                width: "35%",
+                width: {
+                  xs: "35%",
+                  lg: "45%",
+                  lgxl: "40%",
+                  xxl: "35%",
+                  xxxl: "30%",
+                  xxxxl: "25%",
+                },
                 height: "100%",
               }}
             >
@@ -132,6 +142,40 @@ export default function CustomAppBar() {
                 </Typography>
               </Button>
             </Box>
+          </Box>
+          <Box
+            sx={{
+              width: "100%",
+              height: "100%",
+              display: { xs: "flex", lg: "none" },
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
+          >
+            <a href="/">
+              <Box
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  height: { xs: "3rem", xsm: "4rem", sm: "4rem", lg: "100%" },
+                  width: {
+                    xs: "10rem",
+                    sm: "13rem",
+                  },
+                }}
+              >
+                <img
+                  src={AppLogo.src}
+                  alt="AppLogo"
+                  style={{
+                    height: "100%",
+                    width: "100%",
+                    objectFit: "contain",
+                  }}
+                />
+              </Box>
+            </a>
+            <Sidebar />
           </Box>
         </Toolbar>
       </AppBar>

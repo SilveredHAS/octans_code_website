@@ -7,7 +7,7 @@ const ServiceModel = ({ src, name, content }) => {
       sx={{
         display: "flex",
         flexDirection: "column",
-        height: "60vh",
+        height: { xs: "50vh", xsm: "42vh", lg: "60vh" },
         overflow: "hidden",
         // border: "4px solid #FFC43A",
         borderRadius: "1rem",
@@ -15,7 +15,7 @@ const ServiceModel = ({ src, name, content }) => {
         backgroundColor: "#2e2e2e",
       }}
     >
-      <Box sx={{ width: "100%", height: "70%" }}>
+      <Box sx={{ width: "100%", height: { xs: "60%", lg: "70%" } }}>
         <img
           src={src}
           alt="name"
@@ -32,11 +32,14 @@ const ServiceModel = ({ src, name, content }) => {
           display: "flex",
           flexDirection: "column",
           color: "white",
-          p: 2,
-          height: "30%",
+          p: { xs: 1, lg: 2 },
+          height: { xs: "40%", lg: "30%" },
         }}
       >
-        <Typography variant="h6" sx={{ textAlign: "left", fontWeight: 600 }}>
+        <Typography
+          variant="h5"
+          sx={{ textAlign: "left", fontWeight: 600, mt: { xs: 1, lg: 0 } }}
+        >
           {name}
         </Typography>
         <Typography variant="body1" sx={{ mt: 1, textAlign: "left" }}>

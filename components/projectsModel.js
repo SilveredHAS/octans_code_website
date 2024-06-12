@@ -2,38 +2,31 @@ import { Box, Paper, Typography } from "@mui/material";
 import React from "react";
 
 const ProjectsModel = ({ src, name, link, desc }) => {
+  const textColor = "white";
   return (
     <a href={link} target="_blank">
       <Paper
         sx={{
           display: "flex",
           flexDirection: "column",
-          borderRadius: "0.5rem",
-          backgroundColor: "black",
-          height: "100%",
-          position: "relative",
+          backgroundColor: "steelblue",
+          backgroundColor: "darkslategray",
+          background: "radial-gradient(145deg, #2f4f4f, #708090)",
         }}
       >
-        <Box sx={{ height: "100%" }}>
+        <Box>
           <img
             src={src}
             alt={name}
             style={{
               width: "100%",
-              height: "100%",
               objectFit: "cover",
-              borderTopLeftRadius: "0.5rem",
-              borderTopRightRadius: "0.5rem",
             }}
           />
         </Box>
         <Box
           sx={{
-            position: "absolute",
-            backgroundColor: "rgba(0,0,0,0.8)",
             width: "100%",
-            bottom: 0,
-            height: "4rem",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -43,7 +36,7 @@ const ProjectsModel = ({ src, name, link, desc }) => {
         >
           <Typography
             variant="h5"
-            sx={{ textAlign: "center", color: "lightgray", fontWeight: 600 }}
+            sx={{ textAlign: "center", color: textColor, fontWeight: 600 }}
           >
             {name}
           </Typography>
@@ -51,12 +44,26 @@ const ProjectsModel = ({ src, name, link, desc }) => {
             variant="subtitle2"
             sx={{
               textAlign: "left",
-              color: "#FFC43A",
+              color: "gold",
               fontWeight: 600,
               mt: 0.5,
             }}
           >
             {desc}
+          </Typography>
+          <Typography
+            variant="subtitle2"
+            sx={{
+              textAlign: "left",
+              color: textColor,
+              fontWeight: 300,
+              mt: 2,
+            }}
+          >
+            Incapillo is a Pleistocene-age caldera – a depression formed by the
+            collapse of a volcano – in La Rioja Province, Argentina. It is part
+            of the southernmost volcanic centre in the Andean Central Volcanic
+            Zone (CVZ)
           </Typography>
         </Box>
       </Paper>

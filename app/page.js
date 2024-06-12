@@ -15,15 +15,15 @@ export default function Home() {
     <Box sx={{ backgroundColor: PRIMARY_BLACK }}>
       <CustomAppBar />
       <HeroSection />
-      <Box sx={{ mt: 15, backgroundColor: PRIMARY_BLACK }}></Box>
+      <Box sx={{ mt: { xs: 6, lg: 15 }, backgroundColor: PRIMARY_BLACK }}></Box>
       <AboutUs />
-      <Box sx={{ mt: 15, backgroundColor: PRIMARY_BLACK }}></Box>
+      <Box sx={{ mt: { xs: 6, lg: 15 }, backgroundColor: PRIMARY_BLACK }}></Box>
       <Services />
-      <Box sx={{ mt: 15, backgroundColor: PRIMARY_BLACK }}></Box>
+      <Box sx={{ mt: { xs: 6, lg: 15 }, backgroundColor: PRIMARY_BLACK }}></Box>
       <Projects />
-      <Box sx={{ mt: 15, backgroundColor: PRIMARY_BLACK }}></Box>
+      <Box sx={{ mt: { xs: 6, lg: 15 }, backgroundColor: PRIMARY_BLACK }}></Box>
       <ContactUs />
-      <Box sx={{ mt: 15, backgroundColor: PRIMARY_BLACK }}></Box>
+      <Box sx={{ mt: { xs: 6, lg: 15 }, backgroundColor: PRIMARY_BLACK }}></Box>
       <Footer />
     </Box>
   );

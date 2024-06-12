@@ -57,37 +57,40 @@ const lightTheme = createTheme({
 lightTheme.typography.h1 = {
   fontWeight: "700",
   [lightTheme.breakpoints.up("xs")]: {
-    fontSize: "1.3rem",
+    fontSize: "1.6rem",
   },
   [lightTheme.breakpoints.up("xssm")]: {
     fontSize: "1.35rem",
   },
   [lightTheme.breakpoints.up("xsm")]: {
-    fontSize: "1.4rem",
+    fontSize: "2rem",
   },
   [lightTheme.breakpoints.up("sm")]: {
-    fontSize: "2.2rem",
+    fontSize: "3.3rem",
   },
   [lightTheme.breakpoints.up("md")]: {
-    fontSize: "2.5rem",
+    fontSize: "3.5rem",
   },
   [lightTheme.breakpoints.up("lg")]: {
-    fontSize: "1.8rem",
+    fontSize: "2.9rem",
+  },
+  [lightTheme.breakpoints.up("lgxl")]: {
+    fontSize: "3.4rem",
   },
   [lightTheme.breakpoints.up("xl")]: {
     fontSize: "3.6rem",
   },
   [lightTheme.breakpoints.up("xxl")]: {
-    fontSize: "2.35rem",
+    fontSize: "4.4rem",
   },
   [lightTheme.breakpoints.up("xxxl")]: {
-    fontSize: "2.4rem",
+    fontSize: "5.5rem",
   },
   [lightTheme.breakpoints.up("xxxxl")]: {
-    fontSize: "2.7rem",
+    fontSize: "7rem",
   },
   [lightTheme.breakpoints.up("xxxxxl")]: {
-    fontSize: "2.9rem",
+    fontSize: "8rem",
   },
 };
 
@@ -211,7 +214,7 @@ lightTheme.typography.h5 = {
     fontSize: "1rem",
   },
   [lightTheme.breakpoints.up("xsm")]: {
-    fontSize: "1.15rem",
+    fontSize: "1.3rem",
   },
   [lightTheme.breakpoints.up("sm")]: {
     fontSize: "1.6rem",
@@ -248,7 +251,7 @@ lightTheme.typography.h6 = {
     fontSize: "0.9rem",
   },
   [lightTheme.breakpoints.up("xsm")]: {
-    fontSize: "0.9rem",
+    fontSize: "1rem",
   },
   [lightTheme.breakpoints.up("sm")]: {
     fontSize: "1.35rem",
@@ -288,10 +291,10 @@ lightTheme.typography.subtitle1 = {
     fontSize: "1rem",
   },
   [lightTheme.breakpoints.up("sm")]: {
-    fontSize: "1.45rem",
+    fontSize: "1.15rem",
   },
   [lightTheme.breakpoints.up("md")]: {
-    fontSize: "1.45rem",
+    fontSize: "1.15rem",
   },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "1.05rem",
@@ -306,10 +309,10 @@ lightTheme.typography.subtitle1 = {
     fontSize: "1.4rem",
   },
   [lightTheme.breakpoints.up("xxxxl")]: {
-    fontSize: "1.7rem",
+    fontSize: "1.6rem",
   },
   [lightTheme.breakpoints.up("xxxxxl")]: {
-    fontSize: "1.9rem",
+    fontSize: "1.7rem",
   },
 };
 
@@ -322,7 +325,7 @@ lightTheme.typography.subtitle2 = {
     fontSize: "0.85rem",
   },
   [lightTheme.breakpoints.up("xsm")]: {
-    fontSize: "0.9rem",
+    fontSize: "1rem",
   },
   [lightTheme.breakpoints.up("sm")]: {
     fontSize: "1.4rem",
@@ -359,7 +362,7 @@ lightTheme.typography.body1 = {
     fontSize: "0.75rem",
   },
   [lightTheme.breakpoints.up("xsm")]: {
-    fontSize: "0.85rem",
+    fontSize: "0.95rem",
   },
   [lightTheme.breakpoints.up("sm")]: {
     fontSize: "1.2rem",
@@ -377,13 +380,13 @@ lightTheme.typography.body1 = {
     fontSize: "1.1rem",
   },
   [lightTheme.breakpoints.up("xxxl")]: {
-    fontSize: "1.1rem",
+    fontSize: "1.5rem",
   },
   [lightTheme.breakpoints.up("xxxxl")]: {
-    fontSize: "1.2rem",
+    fontSize: "1.6rem",
   },
   [lightTheme.breakpoints.up("xxxxxl")]: {
-    fontSize: "1.3rem",
+    fontSize: "1.7rem",
   },
 };
 

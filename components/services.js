@@ -20,7 +20,7 @@ const Services = () => {
         backgroundColor: PRIMARY_BLACK,
       }}
     >
-      <Box sx={{ width: "80%", pl: 3, pr: 3 }}>
+      <Box sx={{ width: { xs: "90%", lg: "80%" }, pl: 3, pr: 3 }}>
         <Box sx={{ display: "flex", justifyContent: "center" }}>
           <Typography
             variant="h2"
@@ -45,7 +45,7 @@ const Services = () => {
             container
             flexDirection={"row"}
             columnSpacing={8}
-            rowSpacing={10}
+            rowSpacing={{ xs: 5, lg: 10 }}
           >
             <Grid item xs={12} lg={4}>
               <ServiceModel
