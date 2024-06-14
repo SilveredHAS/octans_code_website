@@ -101,7 +101,13 @@ const ContactUs = () => {
       }}
     >
       <Box sx={{ width: { xs: "85%", lg: "80%" } }}>
-        <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            mb: { xs: 0, lg: 2, xl: 3, xxl: 5, xxxl: 7, xxxxl: 9, xxxxxl: 12 },
+          }}
+        >
           <Typography
             variant="h2"
             sx={{ color: "#FCDD95", textAlign: "center", mb: 6 }}
@@ -130,13 +136,10 @@ const ContactUs = () => {
                   <Typography variant="h2" sx={{ mb: 4 }}>
                     We're here for you
                   </Typography>
-                  <Typography variant="h6">
-                    Feel free to connect with us for any service assistance. Our
-                    support
-                  </Typography>
                   <Typography variant="h6" sx={{ mb: { xs: 2, lg: 4 } }}>
-                    team is on standby to help. Email / Call / Text us, we'll
-                    respond without delay.
+                    Feel free to connect with us for any service assistance. Our
+                    support team is on standby to help. Email / Call / Text us,
+                    we'll respond without delay.
                   </Typography>
                   <Divider sx={{ backgroundColor: "white" }} />
                   <Box
@@ -199,7 +202,7 @@ const ContactUs = () => {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     sx={{
-                      mt: 2,
+                      mt: { xs: 2, xxxl: 3 },
                       width: "100%",
                       borderBottom: "1px solid #AEAEAE",
                       "& .MuiInputBase-root": {
@@ -220,7 +223,7 @@ const ContactUs = () => {
                     value={phoneNo}
                     onChange={(e) => setPhoneNo(e.target.value)}
                     sx={{
-                      mt: 2,
+                      mt: { xs: 2, xxxl: 3 },
                       width: "100%",
                       borderBottom: "1px solid #AEAEAE",
                       "& .MuiInputBase-root": {
@@ -242,7 +245,7 @@ const ContactUs = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     sx={{
-                      mt: 2,
+                      mt: { xs: 2, xxxl: 3 },
                       width: "100%",
                       borderBottom: "1px solid #AEAEAE",
                       "& .MuiInputBase-root": {
@@ -272,7 +275,7 @@ const ContactUs = () => {
                       },
                     }}
                     sx={{
-                      mt: 2,
+                      mt: { xs: 2, xxxl: 3 },
                       width: "100%",
                       borderBottom: "1px solid #AEAEAE",
                       "& .MuiInputBase-root": {
@@ -329,7 +332,7 @@ const ContactUs = () => {
                     sx={{
                       display: errorMsg ? "flex" : "none",
                       color: "red",
-                      mt: 2,
+                      mt: { xs: 2, xxxl: 3 },
                       mb: 1,
                     }}
                   >
@@ -342,7 +345,7 @@ const ContactUs = () => {
                       color: "black",
                       textTransform: "capitalize",
                       width: "100%",
-                      mt: 4,
+                      mt: { xs: 4, xxxl: 5 },
                       transition: "all 0.2s linear",
                       "&:hover": {
                         backgroundColor: "#FFC43A",

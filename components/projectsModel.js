@@ -31,7 +31,7 @@ const ProjectsModel = ({ src, name, link, desc }) => {
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "flex-start",
-            p: 1,
+            p: { xs: 1, sm: 2, xl: 3, xxl: 3.5, xxxl: 4.5 },
           }}
         >
           <Typography

@@ -8,7 +8,7 @@ const HeroSection = () => {
     <Box
       component={"div"}
       id="hero-section"
-      sx={{ height: { xs: "50vh", sm: "40vh", lg: "91vh" } }}
+      sx={{ height: { xs: "50vh", sm: "40vh", smmd: "50vh", lg: "91vh" } }}
     >
       <Box
         sx={{

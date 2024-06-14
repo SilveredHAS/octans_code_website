@@ -82,7 +82,8 @@ export default function CustomAppBar() {
                   lgxl: "40%",
                   xxl: "35%",
                   xxxl: "30%",
-                  xxxxl: "25%",
+                  xxxxl: "33%",
+                  xxxxxl: "35%",
                 },
                 height: "100%",
               }}

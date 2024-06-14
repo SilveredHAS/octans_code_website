@@ -7,7 +7,18 @@ const ServiceModel = ({ src, name, content }) => {
       sx={{
         display: "flex",
         flexDirection: "column",
-        height: { xs: "50vh", xsm: "42vh", lg: "60vh" },
+        height: {
+          xs: "52vh",
+          xsm: "52vh",
+          xsmm: "39vh",
+          sm: "52vh",
+          smmd: "46vh",
+          md: "50vh",
+          lg: "60vh",
+          lggxl: "64vh",
+          lgxxl: "55vh",
+          lgxl: "50vh",
+        },
         overflow: "hidden",
         // border: "4px solid #FFC43A",
         borderRadius: "1rem",
@@ -15,7 +26,12 @@ const ServiceModel = ({ src, name, content }) => {
         backgroundColor: "#2e2e2e",
       }}
     >
-      <Box sx={{ width: "100%", height: { xs: "60%", lg: "70%" } }}>
+      <Box
+        sx={{
+          width: "100%",
+          height: { xs: "60%", sm: "73%", md: "70%", lg: "70%" },
+        }}
+      >
         <img
           src={src}
           alt="name"
@@ -32,13 +48,17 @@ const ServiceModel = ({ src, name, content }) => {
           display: "flex",
           flexDirection: "column",
           color: "white",
-          p: { xs: 1, lg: 2 },
-          height: { xs: "40%", lg: "30%" },
+          p: { xs: 1, sm: 2, lg: 2 },
+          height: { xs: "40%", sm: "27%", md: "30%", lg: "30%" },
         }}
       >
         <Typography
           variant="h5"
-          sx={{ textAlign: "left", fontWeight: 600, mt: { xs: 1, lg: 0 } }}
+          sx={{
+            textAlign: "left",
+            fontWeight: 600,
+            mt: { xs: 1, lg: 0, xxl: 1, xxxl: 1.5, xxxxxl: 2 },
+          }}
         >
           {name}
         </Typography>

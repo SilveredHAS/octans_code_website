@@ -49,7 +49,7 @@ const Projects = () => {
             height: "100%",
           }}
         >
-          <Grid container spacing={4} rowSpacing={{ xs: 4, lg: 2 }}>
+          <Grid container spacing={4} rowSpacing={{ xs: 4, md: 7, lg: 2 }}>
             <Grid item xs={12} lg={4}>
               <ProjectsModel
                 src={EraliammanProjectImage.src}

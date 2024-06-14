@@ -64,8 +64,11 @@ const AboutUs = () => {
                 sx={{
                   mt: 2,
                   mb: 4,
-                  borderLeft: "3.5px solid #FFC43A",
-                  pl: 1,
+                  borderLeft: {
+                    xs: "3.5px solid #FFC43A",
+                    xxxl: "5.5px solid #FFC43A",
+                  },
+                  pl: { xs: 1, xxxl: 3 },
                   color: "lightgray",
                 }}
               >
@@ -90,7 +93,10 @@ const AboutUs = () => {
                     >
                       &#x2192;
                     </Typography>{" "}
-                    <Typography variant="subtitle1" sx={{ ml: 2, mt: 0.5 }}>
+                    <Typography
+                      variant="subtitle1"
+                      sx={{ ml: 2, mt: { xs: 0.5, lg: 1 } }}
+                    >
                       {item}
                     </Typography>
                   </Box>

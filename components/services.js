@@ -20,7 +20,22 @@ const Services = () => {
         backgroundColor: PRIMARY_BLACK,
       }}
     >
-      <Box sx={{ width: { xs: "90%", lg: "80%" }, pl: 3, pr: 3 }}>
+      <Box
+        sx={{
+          width: {
+            xs: "90%",
+            xsm: "80%",
+            sm: "70%",
+            md: "65%",
+            lg: "90%",
+            xl: "80%",
+            xxxl: "85%",
+            xxxxl: "90%",
+          },
+          pl: 3,
+          pr: 3,
+        }}
+      >
         <Box sx={{ display: "flex", justifyContent: "center" }}>
           <Typography
             variant="h2"
