@@ -16,6 +16,7 @@ import { PRIMARY_BLACK } from "@/constants";
 import emailjs from "@emailjs/browser";
 import CelebrationPopup from "./celebrationPopup";
 import Loader from "./pageLoader";
+import { motion } from "framer-motion";
 
 const ContactUs = () => {
   const services = [
@@ -182,6 +183,12 @@ const ContactUs = () => {
               </Box>
             </Grid>
             <Grid item xs={12} lg={6}>
+              {/* <motion.div
+                initial={{ x: 500, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5 }}
+                viewport={{ once: true }}
+              > */}
               <Box
                 sx={{
                   width: "100%",
@@ -365,6 +372,7 @@ const ContactUs = () => {
                 />
                 <Loader isLoadingScreenOpen={isLoadingScreenOpen} />
               </Box>
+              {/* </motion.div> */}
             </Grid>
           </Grid>
         </Box>

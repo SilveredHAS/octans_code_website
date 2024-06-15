@@ -85,7 +85,7 @@ body {
   overflow-x: hidden;
   font-family: var(--font-lexend);
   background-color: #171717;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 .MuiTypography-root,

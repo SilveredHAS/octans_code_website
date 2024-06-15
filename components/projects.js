@@ -49,13 +49,20 @@ const Projects = () => {
             height: "100%",
           }}
         >
-          <Grid container spacing={4} rowSpacing={{ xs: 4, md: 7, lg: 2 }}>
+          <Grid
+            container
+            spacing={4}
+            rowSpacing={{ xs: 4, sm: 8, md: 7, lg: 2 }}
+          >
             <Grid item xs={12} lg={4}>
               <ProjectsModel
                 src={EraliammanProjectImage.src}
                 name={"Eraliamman Charitable Trust"}
                 link={"https://www.eraliammancharitabletrust.com/"}
-                desc={"Custom Website"}
+                desc={"Charity Website"}
+                content={
+                  "Developed a compassionate charity website to drive online donations and community engagement through compelling storytelling, intuitive navigation, and responsive design, fostering meaningful interactions and support."
+                }
               />
             </Grid>
             <Grid item xs={12} lg={4}>
@@ -64,6 +71,9 @@ const Projects = () => {
                 name={"TMF"}
                 link={"https://www.twowheelermechanicfoundation.com/"}
                 desc={"Business Website"}
+                content={
+                  "Crafted a professional, modern business website showcasing expertise and services, emphasizing client trust and engagement, and featuring a sleek design and intuitive user-friendly interface for optimal user experience."
+                }
               />
             </Grid>
             <Grid item xs={12} lg={4}>
@@ -72,6 +82,9 @@ const Projects = () => {
                 name={"Silvered Store"}
                 link={"https://www.silvered.store/"}
                 desc={"E-Commerce Website"}
+                content={
+                  "Engineered a robust e-commerce platform designed for seamless shopping experiences, secure transactions, and scalable growth, empowering businesses with enhanced customer satisfaction and operational efficiency."
+                }
               />
             </Grid>
           </Grid>

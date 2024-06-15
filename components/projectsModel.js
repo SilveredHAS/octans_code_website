@@ -1,7 +1,8 @@
-import { Box, Paper, Typography } from "@mui/material";
+import { Box, Paper, Typography, duration } from "@mui/material";
 import React from "react";
+import { motion } from "framer-motion";
 
-const ProjectsModel = ({ src, name, link, desc }) => {
+const ProjectsModel = ({ src, name, link, desc, content }) => {
   const textColor = "white";
   return (
     <a href={link} target="_blank">
@@ -9,9 +10,9 @@ const ProjectsModel = ({ src, name, link, desc }) => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "steelblue",
+          // backgroundColor: "steelblue",
           backgroundColor: "darkslategray",
-          background: "radial-gradient(145deg, #2f4f4f, #708090)",
+          // backgroundColor: "lightskyblue",
         }}
       >
         <Box>
@@ -60,10 +61,7 @@ const ProjectsModel = ({ src, name, link, desc }) => {
               mt: 2,
             }}
           >
-            Incapillo is a Pleistocene-age caldera – a depression formed by the
-            collapse of a volcano – in La Rioja Province, Argentina. It is part
-            of the southernmost volcanic centre in the Andean Central Volcanic
-            Zone (CVZ)
+            {content}
           </Typography>
         </Box>
       </Paper>

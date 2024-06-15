@@ -478,7 +478,18 @@ lightTheme.typography.caption = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
+      <head>
+        <title>Octans Code | Web and App Development Company</title>
+        <meta
+          name="description"
+          content="Leading web and app development company offering custom web development, app development, UI/UX design, SEO services, 24/7 maintenance, and domain & hosting services. Elevate your business with our expert solutions."
+        />
+        <meta
+          name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"
+        />
+      </head>
       <ThemeProvider theme={lightTheme}>
         <CssBaseline />
         <body className={inter.className}>{children}</body>

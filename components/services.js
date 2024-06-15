@@ -67,7 +67,7 @@ const Services = () => {
                 src={ServiceWebImage.src}
                 name={"Website Development"}
                 content={
-                  "Crafting dynamic, responsive websites to showcase your brand effectively and engage visitors seamlessly."
+                  "Crafting responsive, user-friendly websites that reflect your brand identity and drive engagement."
                 }
               />
             </Grid>
@@ -103,14 +103,14 @@ const Services = () => {
                 src={SeoImage.src}
                 name={"SEO"}
                 content={
-                  "Offering round-the-clock maintenance to keep your digital platforms running efficiently without downtime."
+                  "Optimizing your online presence to improve visibility and drive organic traffic, boosting your search engine rankings."
                 }
               />
             </Grid>
             <Grid item xs={12} lg={4}>
               <ServiceModel
                 src={ServiceMaintenanceImage.src}
-                name={"24/7 Maintenance"}
+                name={"24/7 Support"}
                 content={
                   "Offering round-the-clock maintenance to keep your digital platforms running efficiently without downtime."
                 }

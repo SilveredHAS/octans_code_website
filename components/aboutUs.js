@@ -7,11 +7,11 @@ const AboutUs = () => {
   //   const weProvideList = ["Expert Team"];
   const weProvideList = [
     "Expert Team",
-    "Premium Design",
-    "Customer-Centric Approach",
+    "Innovative Design",
+    "Client-Focused Solutions",
     "Scalable Architecture",
-    "On-Time Delivery",
-    "24/7 Maintenance Support",
+    "Timely Delivery",
+    "24/7 Support",
   ];
   return (
     <div
@@ -57,7 +57,7 @@ const AboutUs = () => {
               }}
             >
               <Typography variant="h1">
-                Establish your online online online online with Octans Code
+                Shaping Your Digital Success, Engineered by Octans Code
               </Typography>
               <Typography
                 variant="h6"
@@ -72,9 +72,9 @@ const AboutUs = () => {
                   color: "lightgray",
                 }}
               >
-                Our team specializes in creating custom websites and mobile
-                applications that meets the unique needs of our clients. We
-                provide
+                Our team masters the art of designing bespoke websites and
+                mobile apps, uniquely tailored to fulfill our clients' distinct
+                visions. Our Specialities include
               </Typography>
               <Box>
                 {weProvideList.map((item, index) => (
