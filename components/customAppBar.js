@@ -3,7 +3,7 @@ import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import AppLogo from "../public/asset/image/AppLogo1.png";
+import AppLogo from "../public/asset/image/AppLogo1.webp";
 import { Button, Typography } from "@mui/material";
 import { PRIMARY_BLACK } from "@/constants";
 import MenuIcon from "@mui/icons-material/Menu";

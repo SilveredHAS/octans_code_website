@@ -1,6 +1,6 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
-import MeetingImage from "../public/asset/image/aboutus.png";
+import MeetingImage from "../public/asset/image/aboutus.webp";
 import { PRIMARY_BLACK } from "@/constants";
 
 const AboutUs = () => {

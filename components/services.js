@@ -1,11 +1,11 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
-import ServiceWebImage from "../public/asset/image/Service_Web.jpg";
-import ServiceAppImage from "../public/asset/image/Service_App.jpg";
-import ServiceDesignImage from "../public/asset/image/Service_Design.jpg";
-import ServiceHostingImage from "../public/asset/image/Service_Hosting.jpg";
-import ServiceMaintenanceImage from "../public/asset/image/Serive_Maintenance.jpg";
-import SeoImage from "../public/asset/image/seo.jpg";
+import ServiceWebImage from "../public/asset/image/Service_Web.webp";
+import ServiceAppImage from "../public/asset/image/Service_App.webp";
+import ServiceDesignImage from "../public/asset/image/Service_Design.webp";
+import ServiceHostingImage from "../public/asset/image/Service_Hosting.webp";
+import ServiceMaintenanceImage from "../public/asset/image/Serive_Maintenance.webp";
+import SeoImage from "../public/asset/image/seo.webp";
 import ServiceModel from "./serviceModel";
 import { PRIMARY_BLACK } from "@/constants";
 

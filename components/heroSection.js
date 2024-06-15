@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import HeroImage from "../public/asset/image/HeroImage.png";
+import HeroImage from "../public/asset/image/HeroImage.webp";
 import { PRIMARY_BLACK } from "@/constants";
 import { motion } from "framer-motion";
 
@@ -28,6 +28,7 @@ const HeroSection = () => {
           backgroundImage: { xs: `url(${HeroImage.src})`, lg: "none" },
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          backgroundColor: PRIMARY_BLACK,
         }}
       >
         <Box

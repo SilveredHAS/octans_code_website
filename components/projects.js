@@ -1,10 +1,9 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import ProjectsModel from "./projectsModel";
-import ProjectImage from "../public/asset/image/Silvered1.png";
-import EraliammanProjectImage from "../public/asset/image/eraliamman_trust.png";
-import TMFProjectImage from "../public/asset/image/tmf.png";
-import SilveredProjectImage from "../public/asset/image/Silvered1.png";
+import EraliammanProjectImage from "../public/asset/image/eraliamman_trust.webp";
+import TMFProjectImage from "../public/asset/image/tmf.webp";
+import SilveredProjectImage from "../public/asset/image/Silvered1.webp";
 
 const Projects = () => {
   return (
