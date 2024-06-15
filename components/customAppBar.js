@@ -120,7 +120,7 @@ export default function CustomAppBar() {
             <Box>
               <Button
                 disableRipple
-                onClick={() => (window.location.href = "#contactus-section")}
+                onClick={() => scrollToSection("contactus-section")}
                 sx={{
                   backgroundColor: "#FFC43A",
                   color: "black",
