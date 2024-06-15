@@ -11,12 +11,12 @@ const ServiceModel = ({ src, name, content }) => {
           flexDirection: "column",
           height: {
             xs: "52vh",
-            xsm: "52vh",
+            xsm: "25rem",
             xsmm: "39vh",
             sm: "52vh",
             smmd: "46vh",
             md: "50vh",
-            lg: "60vh",
+            mdlg: "66vh",
             lggxl: "64vh",
             lgxxl: "55vh",
             lgxl: "50vh",
@@ -32,7 +32,13 @@ const ServiceModel = ({ src, name, content }) => {
         <Box
           sx={{
             width: "100%",
-            height: { xs: "60%", sm: "73%", md: "70%", lg: "70%" },
+            height: {
+              xs: "60%",
+              xsm: "65%",
+              sm: "73%",
+              md: "70%",
+              mdlg: "70%",
+            },
           }}
         >
           <img
@@ -51,8 +57,14 @@ const ServiceModel = ({ src, name, content }) => {
             display: "flex",
             flexDirection: "column",
             color: "white",
-            p: { xs: 1, sm: 2, lg: 2 },
-            height: { xs: "40%", sm: "27%", md: "30%", lg: "30%" },
+            p: { xs: 1, sm: 2, mdlg: 2 },
+            height: {
+              xs: "40%",
+              xsm: "35%",
+              sm: "27%",
+              md: "30%",
+              mdlg: "30%",
+            },
           }}
         >
           <Typography
@@ -60,7 +72,7 @@ const ServiceModel = ({ src, name, content }) => {
             sx={{
               textAlign: "left",
               fontWeight: 600,
-              mt: { xs: 1, lg: 0, xxl: 1, xxxl: 1.5, xxxxxl: 2 },
+              mt: { xs: 1, mdlg: 0, xxl: 1, xxxl: 1.5, xxxxxl: 2 },
             }}
           >
             {name}

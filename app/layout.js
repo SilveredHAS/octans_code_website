@@ -23,6 +23,7 @@ const lightTheme = createTheme({
       sm: 600,
       smmd: 800,
       md: 900,
+      mdlg: 1020,
       lg: 1200,
       lggxl: 1270,
       lgxxl: 1360,
@@ -71,6 +72,9 @@ lightTheme.typography.h1 = {
   [lightTheme.breakpoints.up("md")]: {
     fontSize: "3.6rem",
   },
+  [lightTheme.breakpoints.up("mdlg")]: {
+    fontSize: "2.4rem",
+  },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "2.7rem",
   },
@@ -111,6 +115,9 @@ lightTheme.typography.h2 = {
   [lightTheme.breakpoints.up("md")]: {
     fontSize: "2.1rem",
   },
+  [lightTheme.breakpoints.up("mdlg")]: {
+    fontSize: "1.8rem",
+  },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "2rem",
   },
@@ -148,6 +155,9 @@ lightTheme.typography.h3 = {
   [lightTheme.breakpoints.up("md")]: {
     fontSize: "1.9rem",
   },
+  [lightTheme.breakpoints.up("mdlg")]: {
+    fontSize: "2.4rem",
+  },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "1.8rem",
   },
@@ -184,6 +194,9 @@ lightTheme.typography.h4 = {
   },
   [lightTheme.breakpoints.up("md")]: {
     fontSize: "1.7rem",
+  },
+  [lightTheme.breakpoints.up("mdlg")]: {
+    fontSize: "2.4rem",
   },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "1.6rem",
@@ -225,6 +238,9 @@ lightTheme.typography.h5 = {
   [lightTheme.breakpoints.up("md")]: {
     fontSize: "2rem",
   },
+  [lightTheme.breakpoints.up("mdlg")]: {
+    fontSize: "1.1rem",
+  },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "1.25rem",
   },
@@ -261,6 +277,9 @@ lightTheme.typography.h6 = {
   },
   [lightTheme.breakpoints.up("md")]: {
     fontSize: "1.5rem",
+  },
+  [lightTheme.breakpoints.up("mdlg")]: {
+    fontSize: "1.1rem",
   },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "1.2rem",
@@ -302,6 +321,9 @@ lightTheme.typography.subtitle1 = {
   [lightTheme.breakpoints.up("md")]: {
     fontSize: "1.5rem",
   },
+  [lightTheme.breakpoints.up("mdlg")]: {
+    fontSize: "1rem",
+  },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "1.05rem",
   },
@@ -341,6 +363,9 @@ lightTheme.typography.subtitle2 = {
   },
   [lightTheme.breakpoints.up("md")]: {
     fontSize: "1.4rem",
+  },
+  [lightTheme.breakpoints.up("mdlg")]: {
+    fontSize: "0.9rem",
   },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "1rem",
@@ -382,6 +407,9 @@ lightTheme.typography.body1 = {
   [lightTheme.breakpoints.up("md")]: {
     fontSize: "1.45rem",
   },
+  [lightTheme.breakpoints.up("mdlg")]: {
+    fontSize: "0.8rem",
+  },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "0.95rem",
   },
@@ -419,6 +447,9 @@ lightTheme.typography.body2 = {
   [lightTheme.breakpoints.up("md")]: {
     fontSize: "1.2rem",
   },
+  [lightTheme.breakpoints.up("mdlg")]: {
+    fontSize: "1rem",
+  },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "0.9rem",
   },
@@ -455,6 +486,9 @@ lightTheme.typography.caption = {
   },
   [lightTheme.breakpoints.up("md")]: {
     fontSize: "1.1rem",
+  },
+  [lightTheme.breakpoints.up("mdlg")]: {
+    fontSize: "2.4rem",
   },
   [lightTheme.breakpoints.up("lg")]: {
     fontSize: "0.8rem",

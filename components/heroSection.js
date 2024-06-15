@@ -15,7 +15,7 @@ const HeroSection = () => {
           sm: "48vh",
           smmd: "52vh",
           md: "63vh",
-          lg: "91vh",
+          mdlg: "91vh",
           xxl: "100vh",
         },
       }}
@@ -25,7 +25,7 @@ const HeroSection = () => {
           display: "flex",
           width: "100%",
           height: "100%",
-          backgroundImage: { xs: `url(${HeroImage.src})`, lg: "none" },
+          backgroundImage: { xs: `url(${HeroImage.src})`, mdlg: "none" },
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundColor: PRIMARY_BLACK,
@@ -34,14 +34,14 @@ const HeroSection = () => {
         <Box
           sx={{
             height: "100%",
-            width: { xs: "100%", lg: "50%" },
+            width: { xs: "100%", mdlg: "50%" },
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            flexDirection: { xs: "column", lg: "row" },
-            pl: { xs: 2, lg: 10 },
-            pb: { xs: 2, lg: 10 },
-            backgroundColor: { xs: "rgba(0,0,0,0.5)", lg: PRIMARY_BLACK },
+            flexDirection: { xs: "column", mdlg: "row" },
+            pl: { xs: 2, mdlg: 10 },
+            pb: { xs: 2, mdlg: 10 },
+            backgroundColor: { xs: "rgba(0,0,0,0.5)", mdlg: PRIMARY_BLACK },
           }}
         >
           <motion.div
@@ -69,7 +69,7 @@ const HeroSection = () => {
           sx={{
             height: "100%",
             width: "50%",
-            display: { xs: "none", lg: "flex" },
+            display: { xs: "none", mdlg: "flex" },
           }}
         >
           <motion.div

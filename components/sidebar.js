@@ -51,7 +51,7 @@ export default function Sidebar({ color }) {
         <ListItem
           key={"closebutton"}
           disablePadding
-          sx={{ pl: { xs: 0.75, lg: 0.35 } }}
+          sx={{ pl: { xs: 0.75, mdlg: 0.35 } }}
         >
           <StyledIconButton>
             <CloseIcon

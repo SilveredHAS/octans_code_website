@@ -40,7 +40,13 @@ const Footer = () => {
     >
       <Box
         sx={{
-          width: { xs: "100%", xsm: "95%", sm: "90%", lg: "60%", xxxl: "50%" },
+          width: {
+            xs: "100%",
+            xsm: "95%",
+            sm: "90%",
+            mdlg: "60%",
+            xxxl: "50%",
+          },
           display: "flex",
           justifyContent: "space-between",
         }}

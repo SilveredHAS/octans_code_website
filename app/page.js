@@ -20,7 +20,7 @@ export default function Home() {
       <HeroSection />
       <Box
         sx={{
-          mt: { xs: 6, lg: 6, xxl: 10 },
+          mt: { xs: 6, mdlg: 6, xxl: 10 },
           backgroundColor: PRIMARY_BLACK,
         }}
       ></Box>
@@ -34,7 +34,7 @@ export default function Home() {
       </motion.div>
       <Box
         sx={{
-          mt: { xs: 6, sm: 10, md: 14, lg: 8, xxl: 10 },
+          mt: { xs: 6, sm: 10, md: 14, mdlg: 8, xxl: 10 },
           backgroundColor: PRIMARY_BLACK,
         }}
       ></Box>
@@ -48,7 +48,7 @@ export default function Home() {
       </motion.div>
       <Box
         sx={{
-          mt: { xs: 6, sm: 10, md: 10, lg: 8, xxl: 10, xxxl: 14 },
+          mt: { xs: 6, sm: 10, md: 10, mdlg: 8, xxl: 10, xxxl: 14 },
           backgroundColor: PRIMARY_BLACK,
         }}
       ></Box>
@@ -62,7 +62,7 @@ export default function Home() {
       </motion.div>
       <Box
         sx={{
-          mt: { xs: 6, lg: 8, xxl: 10, xxxl: 14 },
+          mt: { xs: 6, mdlg: 8, xxl: 10, xxxl: 14 },
           backgroundColor: PRIMARY_BLACK,
         }}
       ></Box>
@@ -76,7 +76,7 @@ export default function Home() {
       </motion.div>
       <Box
         sx={{
-          mt: { xs: 6, lg: 12, xxl: 10 },
+          mt: { xs: 6, mdlg: 12, xxl: 10 },
           backgroundColor: PRIMARY_BLACK,
         }}
       ></Box>

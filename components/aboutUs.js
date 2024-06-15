@@ -25,9 +25,9 @@ const AboutUs = () => {
         backgroundColor: PRIMARY_BLACK,
       }}
     >
-      <Box sx={{ width: { xs: "85%", lg: "95%" } }}>
+      <Box sx={{ width: { xs: "85%", mdlg: "95%" } }}>
         <Grid container spacing={4} alignItems={"center"}>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12} mdlg={6}>
             <Box
               sx={{
                 width: "100%",
@@ -47,7 +47,7 @@ const AboutUs = () => {
               />
             </Box>
           </Grid>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12} mdlg={6}>
             <Box
               sx={{
                 height: "100%",
@@ -95,7 +95,7 @@ const AboutUs = () => {
                     </Typography>{" "}
                     <Typography
                       variant="subtitle1"
-                      sx={{ ml: 2, mt: { xs: 0.5, lg: 1 } }}
+                      sx={{ ml: 2, mt: { xs: 0.5, mdlg: 1 } }}
                     >
                       {item}
                     </Typography>

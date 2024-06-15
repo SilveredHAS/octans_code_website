@@ -101,12 +101,20 @@ const ContactUs = () => {
         marginBottom: 80,
       }}
     >
-      <Box sx={{ width: { xs: "85%", lg: "80%" } }}>
+      <Box sx={{ width: { xs: "85%", mdlg: "80%" } }}>
         <Box
           sx={{
             display: "flex",
             justifyContent: "center",
-            mb: { xs: 0, lg: 2, xl: 3, xxl: 5, xxxl: 7, xxxxl: 9, xxxxxl: 12 },
+            mb: {
+              xs: 0,
+              mdlg: 2,
+              xl: 3,
+              xxl: 5,
+              xxxl: 7,
+              xxxxl: 9,
+              xxxxxl: 12,
+            },
           }}
         >
           <Typography
@@ -131,7 +139,7 @@ const ContactUs = () => {
           }}
         >
           <Grid container spacing={{ xs: 8, lg: 20 }}>
-            <Grid item xs={12} lg={6}>
+            <Grid item xs={12} mdlg={6}>
               <Box sx={{ width: "100%" }}>
                 <Box sx={{ display: "flex", flexDirection: "column" }}>
                   <Typography variant="h2" sx={{ mb: 4 }}>
@@ -147,7 +155,7 @@ const ContactUs = () => {
                     sx={{
                       display: "flex",
                       alignItems: "center",
-                      mt: { xs: 2, lg: 4 },
+                      mt: { xs: 2, mdlg: 4 },
                     }}
                   >
                     <LocationOnIcon sx={{ fontSize: "2.1rem" }} />
@@ -159,7 +167,7 @@ const ContactUs = () => {
                     sx={{
                       display: "flex",
                       alignItems: "center",
-                      mt: { xs: 2, lg: 4 },
+                      mt: { xs: 2, mdlg: 4 },
                     }}
                   >
                     <EmailIcon sx={{ fontSize: "2.1rem" }} />
@@ -171,7 +179,7 @@ const ContactUs = () => {
                     sx={{
                       display: "flex",
                       alignItems: "center",
-                      mt: { xs: 2, lg: 4 },
+                      mt: { xs: 2, mdlg: 4 },
                     }}
                   >
                     <CallIcon sx={{ fontSize: "2.1rem" }} />
@@ -182,7 +190,7 @@ const ContactUs = () => {
                 </Box>
               </Box>
             </Grid>
-            <Grid item xs={12} lg={6}>
+            <Grid item xs={12} mdlg={6}>
               {/* <motion.div
                 initial={{ x: 500, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}

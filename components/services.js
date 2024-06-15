@@ -27,7 +27,7 @@ const Services = () => {
             xsm: "80%",
             sm: "70%",
             md: "65%",
-            lg: "90%",
+            mdlg: "90%",
             xl: "80%",
             xxxl: "85%",
             xxxxl: "90%",
@@ -60,18 +60,18 @@ const Services = () => {
             container
             flexDirection={"row"}
             columnSpacing={8}
-            rowSpacing={{ xs: 5, lg: 10 }}
+            rowSpacing={{ xs: 5, mdlg: 10 }}
           >
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} mdlg={4}>
               <ServiceModel
                 src={ServiceWebImage.src}
                 name={"Website Development"}
                 content={
-                  "Crafting responsive, user-friendly websites that reflect your brand identity and drive engagement."
+                  "Crafting responsive, user-friendly websites that reflect your brand identity and drive user engagement."
                 }
               />
             </Grid>
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} mdlg={4}>
               <ServiceModel
                 src={ServiceAppImage.src}
                 name={"App Development"}
@@ -80,7 +80,7 @@ const Services = () => {
                 }
               />
             </Grid>
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} mdlg={4}>
               <ServiceModel
                 src={ServiceDesignImage.src}
                 name={"UI / UX Design"}
@@ -89,7 +89,7 @@ const Services = () => {
                 }
               />
             </Grid>
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} mdlg={4}>
               <ServiceModel
                 src={ServiceHostingImage.src}
                 name={"Domain and Hosting"}
@@ -98,7 +98,7 @@ const Services = () => {
                 }
               />
             </Grid>
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} mdlg={4}>
               <ServiceModel
                 src={SeoImage.src}
                 name={"SEO"}
@@ -107,7 +107,7 @@ const Services = () => {
                 }
               />
             </Grid>
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} mdlg={4}>
               <ServiceModel
                 src={ServiceMaintenanceImage.src}
                 name={"24/7 Support"}

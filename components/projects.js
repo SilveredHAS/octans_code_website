@@ -14,8 +14,8 @@ const Projects = () => {
         width: "100%",
         display: "flex",
         justifyContent: "center",
-        paddingTop: { xs: "1rem", lg: "3rem" },
-        paddingBottom: { xs: "1rem", lg: "3rem" },
+        paddingTop: { xs: "1rem", mdlg: "3rem" },
+        paddingBottom: { xs: "1rem", mdlg: "3rem" },
       }}
     >
       <Box
@@ -44,16 +44,16 @@ const Projects = () => {
           sx={{
             display: "flex",
             justifyContent: "space-between",
-            width: { xs: "80%", lg: "90%" },
+            width: { xs: "80%", mdlg: "90%" },
             height: "100%",
           }}
         >
           <Grid
             container
             spacing={4}
-            rowSpacing={{ xs: 4, sm: 8, md: 7, lg: 2 }}
+            rowSpacing={{ xs: 4, sm: 8, md: 7, mdlg: 2 }}
           >
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} mdlg={4}>
               <ProjectsModel
                 src={EraliammanProjectImage.src}
                 name={"Eraliamman Charitable Trust"}
@@ -64,7 +64,7 @@ const Projects = () => {
                 }
               />
             </Grid>
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} mdlg={4}>
               <ProjectsModel
                 src={TMFProjectImage.src}
                 name={"TMF"}
@@ -75,7 +75,7 @@ const Projects = () => {
                 }
               />
             </Grid>
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} mdlg={4}>
               <ProjectsModel
                 src={SilveredProjectImage.src}
                 name={"Silvered Store"}

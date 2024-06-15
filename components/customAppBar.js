@@ -45,7 +45,7 @@ export default function CustomAppBar() {
             sx={{
               width: "100%",
               height: "100%",
-              display: { xs: "none", lg: "flex" },
+              display: { xs: "none", mdlg: "flex" },
               justifyContent: "space-between",
               alignItems: "center",
               p: { xs: 0, xxl: 1, xxxl: 2, xxxxxl: 3 },
@@ -78,7 +78,7 @@ export default function CustomAppBar() {
                 display: "flex",
                 width: {
                   xs: "35%",
-                  lg: "45%",
+                  mdlg: "45%",
                   lgxl: "40%",
                   xxl: "35%",
                   xxxl: "30%",
@@ -148,7 +148,7 @@ export default function CustomAppBar() {
             sx={{
               width: "100%",
               height: "100%",
-              display: { xs: "flex", lg: "none" },
+              display: { xs: "flex", mdlg: "none" },
               justifyContent: "space-between",
               alignItems: "center",
             }}
@@ -158,7 +158,7 @@ export default function CustomAppBar() {
                 sx={{
                   display: "flex",
                   alignItems: "center",
-                  height: { xs: "3rem", xsm: "4rem", sm: "4rem", lg: "100%" },
+                  height: { xs: "3rem", xsm: "4rem", sm: "4rem", mdlg: "100%" },
                   width: {
                     xs: "10rem",
                     sm: "13rem",
