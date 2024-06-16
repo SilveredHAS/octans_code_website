@@ -13,7 +13,7 @@ import { PRIMARY_BLACK } from "@/constants";
 import { motion } from "framer-motion";
 
 export default function Home() {
-  const delay = 0.4;
+  const delay = 0.3;
   return (
     <Box sx={{ backgroundColor: PRIMARY_BLACK }}>
       <CustomAppBar />
@@ -27,7 +27,7 @@ export default function Home() {
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.32, delay: delay, ease: "linear" }}
+        transition={{ duration: 0.35, delay: delay, ease: "linear" }}
         viewport={{ once: true }}
       >
         <AboutUs />
@@ -69,7 +69,7 @@ export default function Home() {
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.32, delay: delay, ease: "linear" }}
+        transition={{ duration: 0.35, delay: delay, ease: "linear" }}
         viewport={{ once: true }}
       >
         <ContactUs />
